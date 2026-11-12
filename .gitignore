@@ -1,0 +1,5 @@
+# 대회 데이터와 행 단위 산출물, 제출 파일은 올리지 않는다(Kaggle 밖으로 재배포할 수 없다).
+data/
+outputs/local/
+submissions/
+*.csv

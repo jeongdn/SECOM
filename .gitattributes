@@ -1,0 +1,3 @@
+# 모든 텍스트 파일은 저장소와 작업 폴더에서 줄바꿈 LF로 둔다(Windows의 자동 CRLF 변환을 막는다).
+* text=auto eol=lf
+*.png binary

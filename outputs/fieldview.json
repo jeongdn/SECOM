@@ -1,0 +1,1017 @@
+{
+ "created": "2026-11-12T13:55:27",
+ "data_sha256": {
+  "train.csv": "1ff77cd567de374274e5457cb68c4a35aa097ba0880fd9e4af1aa499e7df2e3f",
+  "test.csv": "b23ea5f840d16533ebe6d1f8683a08fc3b071edc009d3fc9c315cf0228c4271f",
+  "sample_submission.csv": "fd51f272a6efb155604401400d9018e0a3b795ba9694dd99dcdf00cb4fe841a9"
+ },
+ "stability": {
+  "columns": 450,
+  "halves": 100,
+  "top": 20,
+  "null_runs": 20,
+  "null_max_share": [
+   0.67,
+   0.51,
+   0.74,
+   0.82,
+   0.72,
+   0.87,
+   0.49,
+   0.76,
+   0.46,
+   0.79,
+   0.42,
+   0.47,
+   0.39,
+   0.62,
+   0.65,
+   0.4,
+   0.41,
+   0.61,
+   0.7,
+   0.76
+  ],
+  "standard": 0.87,
+  "null_max_share_median": 0.635,
+  "stable_share": 0.8,
+  "stable": [],
+  "most_picked": [
+   {
+    "sensor": "477",
+    "share": 0.63,
+    "S": 3.790159929936875,
+    "direction": "불량에서 높다",
+    "rank": 1,
+    "S_without_blocks": 4.231723568730408,
+    "rank_without_blocks": 4
+   },
+   {
+    "sensor": "205",
+    "share": 0.6,
+    "S": 3.7339448985966794,
+    "direction": "불량에서 높다",
+    "rank": 2,
+    "S_without_blocks": 4.157394396192423,
+    "rank_without_blocks": 7
+   },
+   {
+    "sensor": "336",
+    "share": 0.6,
+    "S": 3.5577121522517743,
+    "direction": "불량에서 높다",
+    "rank": 3,
+    "S_without_blocks": 2.813139629800136,
+    "rank_without_blocks": 18
+   },
+   {
+    "sensor": "333",
+    "share": 0.55,
+    "S": 3.364984270363844,
+    "direction": "불량에서 높다",
+    "rank": 4,
+    "S_without_blocks": 2.5193180132684234,
+    "rank_without_blocks": 33
+   },
+   {
+    "sensor": "200",
+    "share": 0.51,
+    "S": 3.2344278408667577,
+    "direction": "불량에서 높다",
+    "rank": 8,
+    "S_without_blocks": 2.4489082619661895,
+    "rank_without_blocks": 37
+   },
+   {
+    "sensor": "341",
+    "share": 0.5,
+    "S": 3.2826411258655286,
+    "direction": "불량에서 높다",
+    "rank": 7,
+    "S_without_blocks": 3.7060651409088057,
+    "rank_without_blocks": 10
+   },
+   {
+    "sensor": "479",
+    "share": 0.49,
+    "S": 3.2858081698846946,
+    "direction": "불량에서 높다",
+    "rank": 6,
+    "S_without_blocks": 1.8876775237560064,
+    "rank_without_blocks": 88
+   },
+   {
+    "sensor": "100",
+    "share": 0.48,
+    "S": 3.3357027259370833,
+    "direction": "불량에서 높다",
+    "rank": 5,
+    "S_without_blocks": 2.7561653925583944,
+    "rank_without_blocks": 22
+   },
+   {
+    "sensor": "21",
+    "share": 0.45,
+    "S": 3.2143872713822836,
+    "direction": "불량에서 높다",
+    "rank": 9,
+    "S_without_blocks": 3.2677128213245794,
+    "rank_without_blocks": 15
+   },
+   {
+    "sensor": "103",
+    "share": 0.4,
+    "S": 3.0510195526547816,
+    "direction": "불량에서 높다",
+    "rank": 12,
+    "S_without_blocks": 5.52945988785878,
+    "rank_without_blocks": 1
+   },
+   {
+    "sensor": "455",
+    "share": 0.39,
+    "S": 2.997237340512298,
+    "direction": "불량에서 높다",
+    "rank": 15,
+    "S_without_blocks": 2.6260145771600323,
+    "rank_without_blocks": 29
+   },
+   {
+    "sensor": "343",
+    "share": 0.38,
+    "S": 3.038778736389749,
+    "direction": "불량에서 높다",
+    "rank": 13,
+    "S_without_blocks": 1.5424878072236659,
+    "rank_without_blocks": 124
+   },
+   {
+    "sensor": "183",
+    "share": 0.37,
+    "S": 2.972721678888055,
+    "direction": "불량에서 높다",
+    "rank": 16,
+    "S_without_blocks": 2.626642923053951,
+    "rank_without_blocks": 28
+   },
+   {
+    "sensor": "207",
+    "share": 0.36,
+    "S": 3.0609480445239106,
+    "direction": "불량에서 높다",
+    "rank": 11,
+    "S_without_blocks": 1.708626106010901,
+    "rank_without_blocks": 99
+   },
+   {
+    "sensor": "469",
+    "share": 0.35,
+    "S": 3.00235773016934,
+    "direction": "불량에서 높다",
+    "rank": 14,
+    "S_without_blocks": 2.2569612305390074,
+    "rank_without_blocks": 51
+   },
+   {
+    "sensor": "59",
+    "share": 0.34,
+    "S": 2.816059908486148,
+    "direction": "불량에서 높다",
+    "rank": 19,
+    "S_without_blocks": 4.866294986257437,
+    "rank_without_blocks": 2
+   },
+   {
+    "sensor": "75",
+    "share": 0.34,
+    "S": 2.88110064632013,
+    "direction": "불량에서 높다",
+    "rank": 18,
+    "S_without_blocks": 1.1664685743597916,
+    "rank_without_blocks": 177
+   },
+   {
+    "sensor": "281",
+    "share": 0.34,
+    "S": -3.071823268409535,
+    "direction": "불량에서 낮다",
+    "rank": 10,
+    "S_without_blocks": -2.772983807740842,
+    "rank_without_blocks": 21
+   },
+   {
+    "sensor": "345",
+    "share": 0.33,
+    "S": 2.6882309810988074,
+    "direction": "불량에서 높다",
+    "rank": 22,
+    "S_without_blocks": 1.963152319348197,
+    "rank_without_blocks": 78
+   },
+   {
+    "sensor": "319",
+    "share": 0.3,
+    "S": 2.810601981050319,
+    "direction": "불량에서 높다",
+    "rank": 21,
+    "S_without_blocks": 2.5358469413826885,
+    "rank_without_blocks": 31
+   }
+  ],
+  "top_all_rows": [
+   {
+    "sensor": "477",
+    "share": 0.63,
+    "S": 3.790159929936875,
+    "direction": "불량에서 높다",
+    "rank": 1,
+    "S_without_blocks": 4.231723568730408,
+    "rank_without_blocks": 4
+   },
+   {
+    "sensor": "205",
+    "share": 0.6,
+    "S": 3.7339448985966794,
+    "direction": "불량에서 높다",
+    "rank": 2,
+    "S_without_blocks": 4.157394396192423,
+    "rank_without_blocks": 7
+   },
+   {
+    "sensor": "336",
+    "share": 0.6,
+    "S": 3.5577121522517743,
+    "direction": "불량에서 높다",
+    "rank": 3,
+    "S_without_blocks": 2.813139629800136,
+    "rank_without_blocks": 18
+   },
+   {
+    "sensor": "333",
+    "share": 0.55,
+    "S": 3.364984270363844,
+    "direction": "불량에서 높다",
+    "rank": 4,
+    "S_without_blocks": 2.5193180132684234,
+    "rank_without_blocks": 33
+   },
+   {
+    "sensor": "100",
+    "share": 0.48,
+    "S": 3.3357027259370833,
+    "direction": "불량에서 높다",
+    "rank": 5,
+    "S_without_blocks": 2.7561653925583944,
+    "rank_without_blocks": 22
+   },
+   {
+    "sensor": "479",
+    "share": 0.49,
+    "S": 3.2858081698846946,
+    "direction": "불량에서 높다",
+    "rank": 6,
+    "S_without_blocks": 1.8876775237560064,
+    "rank_without_blocks": 88
+   },
+   {
+    "sensor": "341",
+    "share": 0.5,
+    "S": 3.2826411258655286,
+    "direction": "불량에서 높다",
+    "rank": 7,
+    "S_without_blocks": 3.7060651409088057,
+    "rank_without_blocks": 10
+   },
+   {
+    "sensor": "200",
+    "share": 0.51,
+    "S": 3.2344278408667577,
+    "direction": "불량에서 높다",
+    "rank": 8,
+    "S_without_blocks": 2.4489082619661895,
+    "rank_without_blocks": 37
+   },
+   {
+    "sensor": "21",
+    "share": 0.45,
+    "S": 3.2143872713822836,
+    "direction": "불량에서 높다",
+    "rank": 9,
+    "S_without_blocks": 3.2677128213245794,
+    "rank_without_blocks": 15
+   },
+   {
+    "sensor": "281",
+    "share": 0.34,
+    "S": -3.071823268409535,
+    "direction": "불량에서 낮다",
+    "rank": 10,
+    "S_without_blocks": -2.772983807740842,
+    "rank_without_blocks": 21
+   },
+   {
+    "sensor": "207",
+    "share": 0.36,
+    "S": 3.0609480445239106,
+    "direction": "불량에서 높다",
+    "rank": 11,
+    "S_without_blocks": 1.708626106010901,
+    "rank_without_blocks": 99
+   },
+   {
+    "sensor": "103",
+    "share": 0.4,
+    "S": 3.0510195526547816,
+    "direction": "불량에서 높다",
+    "rank": 12,
+    "S_without_blocks": 5.52945988785878,
+    "rank_without_blocks": 1
+   },
+   {
+    "sensor": "343",
+    "share": 0.38,
+    "S": 3.038778736389749,
+    "direction": "불량에서 높다",
+    "rank": 13,
+    "S_without_blocks": 1.5424878072236659,
+    "rank_without_blocks": 124
+   },
+   {
+    "sensor": "469",
+    "share": 0.35,
+    "S": 3.00235773016934,
+    "direction": "불량에서 높다",
+    "rank": 14,
+    "S_without_blocks": 2.2569612305390074,
+    "rank_without_blocks": 51
+   },
+   {
+    "sensor": "455",
+    "share": 0.39,
+    "S": 2.997237340512298,
+    "direction": "불량에서 높다",
+    "rank": 15,
+    "S_without_blocks": 2.6260145771600323,
+    "rank_without_blocks": 29
+   },
+   {
+    "sensor": "183",
+    "share": 0.37,
+    "S": 2.972721678888055,
+    "direction": "불량에서 높다",
+    "rank": 16,
+    "S_without_blocks": 2.626642923053951,
+    "rank_without_blocks": 28
+   },
+   {
+    "sensor": "197",
+    "share": 0.29,
+    "S": 2.8962617555272803,
+    "direction": "불량에서 높다",
+    "rank": 17,
+    "S_without_blocks": 2.1172790779093607,
+    "rank_without_blocks": 63
+   },
+   {
+    "sensor": "75",
+    "share": 0.34,
+    "S": 2.88110064632013,
+    "direction": "불량에서 높다",
+    "rank": 18,
+    "S_without_blocks": 1.1664685743597916,
+    "rank_without_blocks": 177
+   },
+   {
+    "sensor": "59",
+    "share": 0.34,
+    "S": 2.816059908486148,
+    "direction": "불량에서 높다",
+    "rank": 19,
+    "S_without_blocks": 4.866294986257437,
+    "rank_without_blocks": 2
+   },
+   {
+    "sensor": "130",
+    "share": 0.27,
+    "S": 2.8124003817187058,
+    "direction": "불량에서 높다",
+    "rank": 20,
+    "S_without_blocks": 2.4619629571862567,
+    "rank_without_blocks": 35
+   }
+  ],
+  "calendar_sensors": [
+   {
+    "sensor": "510",
+    "share": 0.23,
+    "S": 2.6222789258622248,
+    "direction": "불량에서 높다",
+    "rank": 24,
+    "S_without_blocks": 4.296882892015249,
+    "rank_without_blocks": 3
+   },
+   {
+    "sensor": "247",
+    "share": 0.02,
+    "S": 1.4389730132733387,
+    "direction": "불량에서 높다",
+    "rank": 122,
+    "S_without_blocks": 4.202971925617042,
+    "rank_without_blocks": 5
+   },
+   {
+    "sensor": "519",
+    "share": 0.03,
+    "S": 1.4506825585893062,
+    "direction": "불량에서 높다",
+    "rank": 118,
+    "S_without_blocks": 4.1755109673685125,
+    "rank_without_blocks": 6
+   },
+   {
+    "sensor": "33",
+    "share": 0.13,
+    "S": 2.423631682396121,
+    "direction": "불량에서 높다",
+    "rank": 32,
+    "S_without_blocks": 3.9118320405527673,
+    "rank_without_blocks": 8
+   },
+   {
+    "sensor": "129",
+    "share": 0.15,
+    "S": 2.2400073534894296,
+    "direction": "불량에서 높다",
+    "rank": 40,
+    "S_without_blocks": 3.743467729813749,
+    "rank_without_blocks": 9
+   },
+   {
+    "sensor": "385",
+    "share": 0.07,
+    "S": 1.5235419516664372,
+    "direction": "불량에서 높다",
+    "rank": 107,
+    "S_without_blocks": 3.4748952036330034,
+    "rank_without_blocks": 11
+   },
+   {
+    "sensor": "316",
+    "share": 0.05,
+    "S": -1.7279587306119715,
+    "direction": "불량에서 낮다",
+    "rank": 79,
+    "S_without_blocks": -3.337459215549563,
+    "rank_without_blocks": 12
+   },
+   {
+    "sensor": "95",
+    "share": 0.0,
+    "S": 1.3612202572826386,
+    "direction": "불량에서 높다",
+    "rank": 131,
+    "S_without_blocks": 3.297681777418062,
+    "rank_without_blocks": 13
+   },
+   {
+    "sensor": "125",
+    "share": 0.11,
+    "S": -2.135281813408375,
+    "direction": "불량에서 낮다",
+    "rank": 45,
+    "S_without_blocks": -3.272391382620104,
+    "rank_without_blocks": 14
+   },
+   {
+    "sensor": "180",
+    "share": 0.04,
+    "S": -1.5065269481994534,
+    "direction": "불량에서 낮다",
+    "rank": 109,
+    "S_without_blocks": -3.00082290288258,
+    "rank_without_blocks": 16
+   },
+   {
+    "sensor": "122",
+    "share": 0.17,
+    "S": -2.259193711977562,
+    "direction": "불량에서 낮다",
+    "rank": 39,
+    "S_without_blocks": -2.969093486038227,
+    "rank_without_blocks": 17
+   },
+   {
+    "sensor": "452",
+    "share": 0.03,
+    "S": -1.3301723500637692,
+    "direction": "불량에서 낮다",
+    "rank": 142,
+    "S_without_blocks": -2.7907982878402304,
+    "rank_without_blocks": 19
+   },
+   {
+    "sensor": "28",
+    "share": 0.01,
+    "S": -0.6775036624630145,
+    "direction": "불량에서 낮다",
+    "rank": 259,
+    "S_without_blocks": -2.787028212476718,
+    "rank_without_blocks": 20
+   }
+  ],
+  "sensors_at_or_above_stable_share": 0
+ },
+ "control_charts": {
+  "chosen_pairwise_spearman": [
+   {
+    "a": "477",
+    "b": "205",
+    "spearman": 0.9975422254778077
+   },
+   {
+    "a": "477",
+    "b": "333",
+    "spearman": 0.2398699361349425
+   },
+   {
+    "a": "477",
+    "b": "341",
+    "spearman": 0.9611876493172359
+   },
+   {
+    "a": "477",
+    "b": "469",
+    "spearman": 0.25405491364867117
+   },
+   {
+    "a": "205",
+    "b": "333",
+    "spearman": 0.2364670052348757
+   },
+   {
+    "a": "205",
+    "b": "341",
+    "spearman": 0.9646790581730659
+   },
+   {
+    "a": "205",
+    "b": "469",
+    "spearman": 0.2524391342942986
+   },
+   {
+    "a": "333",
+    "b": "341",
+    "spearman": 0.2784718561005333
+   },
+   {
+    "a": "333",
+    "b": "469",
+    "spearman": 0.8975783692039361
+   },
+   {
+    "a": "341",
+    "b": "469",
+    "spearman": 0.2801847132273018
+   }
+  ],
+  "reference_rows": 503,
+  "reference_fails": 49,
+  "monitoring_rows": 750,
+  "monitoring_fails": 34,
+  "monitoring_passes": 716,
+  "eligible_sensors": 401,
+  "nominal_outside_rate": 0.010000000000000009,
+  "charts": [
+   {
+    "sensor": "477",
+    "S_reference": 3.577098951426054,
+    "direction": "불량에서 높다",
+    "limits": {
+     "low": 2.541034,
+     "high": 70.66572900000092
+    },
+    "limits_3sigma": {
+     "low": -0.4044773584905643,
+     "high": 12.266277358490566
+    },
+    "reference_missing": 0.0,
+    "quantile_limits": {
+     "reference": {
+      "fails": {
+       "rows": 49,
+       "outside": 0,
+       "rate": 0.0,
+       "low": 6.938893903907228e-18,
+       "high": 0.07269781922049637
+      },
+      "passes": {
+       "rows": 454,
+       "outside": 6,
+       "rate": 0.013215859030837005,
+       "low": 0.0060706439686554065,
+       "high": 0.028529671305322794
+      },
+      "distinguished": false
+     },
+     "monitoring": {
+      "fails": {
+       "rows": 34,
+       "outside": 4,
+       "rate": 0.11764705882352941,
+       "low": 0.04671446664882335,
+       "high": 0.26620842770371833
+      },
+      "passes": {
+       "rows": 712,
+       "outside": 23,
+       "rate": 0.032303370786516857,
+       "low": 0.02162036810108703,
+       "high": 0.048006025015071604
+      },
+      "distinguished": false
+     }
+    },
+    "sigma_limits": {
+     "reference": {
+      "fails": {
+       "rows": 49,
+       "outside": 4,
+       "rate": 0.08163265306122448,
+       "low": 0.032202817667763686,
+       "high": 0.19189127596571287
+      },
+      "passes": {
+       "rows": 454,
+       "outside": 14,
+       "rate": 0.030837004405286344,
+       "low": 0.01845625817003774,
+       "high": 0.0510906520261494
+      },
+      "distinguished": false
+     },
+     "monitoring": {
+      "fails": {
+       "rows": 34,
+       "outside": 3,
+       "rate": 0.08823529411764706,
+       "low": 0.030465943674648555,
+       "high": 0.22960486562808868
+      },
+      "passes": {
+       "rows": 712,
+       "outside": 9,
+       "rate": 0.012640449438202247,
+       "low": 0.0066641863536534215,
+       "high": 0.02384740046708845
+      },
+      "distinguished": true
+     }
+    }
+   },
+   {
+    "sensor": "205",
+    "S_reference": 3.545912386897492,
+    "direction": "불량에서 높다",
+    "limits": {
+     "low": 3.6465,
+     "high": 79.85140000000091
+    },
+    "limits_3sigma": {
+     "low": -0.7925786163522002,
+     "high": 18.2325786163522
+    },
+    "reference_missing": 0.0,
+    "quantile_limits": {
+     "reference": {
+      "fails": {
+       "rows": 49,
+       "outside": 0,
+       "rate": 0.0,
+       "low": 6.938893903907228e-18,
+       "high": 0.07269781922049637
+      },
+      "passes": {
+       "rows": 454,
+       "outside": 6,
+       "rate": 0.013215859030837005,
+       "low": 0.0060706439686554065,
+       "high": 0.028529671305322794
+      },
+      "distinguished": false
+     },
+     "monitoring": {
+      "fails": {
+       "rows": 34,
+       "outside": 4,
+       "rate": 0.11764705882352941,
+       "low": 0.04671446664882335,
+       "high": 0.26620842770371833
+      },
+      "passes": {
+       "rows": 712,
+       "outside": 18,
+       "rate": 0.025280898876404494,
+       "low": 0.016050196592355365,
+       "high": 0.03960662284686871
+      },
+      "distinguished": true
+     }
+    },
+    "sigma_limits": {
+     "reference": {
+      "fails": {
+       "rows": 49,
+       "outside": 4,
+       "rate": 0.08163265306122448,
+       "low": 0.032202817667763686,
+       "high": 0.19189127596571287
+      },
+      "passes": {
+       "rows": 454,
+       "outside": 14,
+       "rate": 0.030837004405286344,
+       "low": 0.01845625817003774,
+       "high": 0.0510906520261494
+      },
+      "distinguished": false
+     },
+     "monitoring": {
+      "fails": {
+       "rows": 34,
+       "outside": 2,
+       "rate": 0.058823529411764705,
+       "low": 0.016282655210122746,
+       "high": 0.19093606904280996
+      },
+      "passes": {
+       "rows": 712,
+       "outside": 9,
+       "rate": 0.012640449438202247,
+       "low": 0.0066641863536534215,
+       "high": 0.02384740046708845
+      },
+      "distinguished": false
+     }
+    }
+   },
+   {
+    "sensor": "333",
+    "S_reference": 3.528240000331307,
+    "direction": "불량에서 높다",
+    "limits": {
+     "low": 3.674496,
+     "high": 17.762418000000146
+    },
+    "limits_3sigma": {
+     "low": 3.418737735849056,
+     "high": 8.286662264150943
+    },
+    "reference_missing": 0.0,
+    "quantile_limits": {
+     "reference": {
+      "fails": {
+       "rows": 49,
+       "outside": 0,
+       "rate": 0.0,
+       "low": 6.938893903907228e-18,
+       "high": 0.07269781922049637
+      },
+      "passes": {
+       "rows": 454,
+       "outside": 6,
+       "rate": 0.013215859030837005,
+       "low": 0.0060706439686554065,
+       "high": 0.028529671305322794
+      },
+      "distinguished": false
+     },
+     "monitoring": {
+      "fails": {
+       "rows": 34,
+       "outside": 2,
+       "rate": 0.058823529411764705,
+       "low": 0.016282655210122746,
+       "high": 0.19093606904280996
+      },
+      "passes": {
+       "rows": 712,
+       "outside": 6,
+       "rate": 0.008426966292134831,
+       "low": 0.00386771298448096,
+       "high": 0.01826212963010018
+      },
+      "distinguished": false
+     }
+    },
+    "sigma_limits": {
+     "reference": {
+      "fails": {
+       "rows": 49,
+       "outside": 2,
+       "rate": 0.04081632653061224,
+       "low": 0.011265633366185787,
+       "high": 0.13713032306080064
+      },
+      "passes": {
+       "rows": 454,
+       "outside": 10,
+       "rate": 0.022026431718061675,
+       "low": 0.012007469460533092,
+       "high": 0.040066143274549576
+      },
+      "distinguished": false
+     },
+     "monitoring": {
+      "fails": {
+       "rows": 34,
+       "outside": 3,
+       "rate": 0.08823529411764706,
+       "low": 0.030465943674648555,
+       "high": 0.22960486562808868
+      },
+      "passes": {
+       "rows": 712,
+       "outside": 19,
+       "rate": 0.026685393258426966,
+       "low": 0.017149221027126377,
+       "high": 0.0413015131474846
+      },
+      "distinguished": false
+     }
+    }
+   },
+   {
+    "sensor": "341",
+    "S_reference": 3.418047472330388,
+    "direction": "불량에서 높다",
+    "limits": {
+     "low": 1.181536,
+     "high": 29.5325670000004
+    },
+    "limits_3sigma": {
+     "low": 0.24724591194968415,
+     "high": 4.936554088050316
+    },
+    "reference_missing": 0.0,
+    "quantile_limits": {
+     "reference": {
+      "fails": {
+       "rows": 49,
+       "outside": 0,
+       "rate": 0.0,
+       "low": 6.938893903907228e-18,
+       "high": 0.07269781922049637
+      },
+      "passes": {
+       "rows": 454,
+       "outside": 6,
+       "rate": 0.013215859030837005,
+       "low": 0.0060706439686554065,
+       "high": 0.028529671305322794
+      },
+      "distinguished": false
+     },
+     "monitoring": {
+      "fails": {
+       "rows": 34,
+       "outside": 2,
+       "rate": 0.058823529411764705,
+       "low": 0.016282655210122746,
+       "high": 0.19093606904280996
+      },
+      "passes": {
+       "rows": 712,
+       "outside": 27,
+       "rate": 0.037921348314606744,
+       "low": 0.026190775597627197,
+       "high": 0.05461127646007907
+      },
+      "distinguished": false
+     }
+    },
+    "sigma_limits": {
+     "reference": {
+      "fails": {
+       "rows": 49,
+       "outside": 3,
+       "rate": 0.061224489795918366,
+       "low": 0.02104014667296747,
+       "high": 0.16520487835726402
+      },
+      "passes": {
+       "rows": 454,
+       "outside": 18,
+       "rate": 0.039647577092511016,
+       "low": 0.0252238291439779,
+       "high": 0.06179637851331371
+      },
+      "distinguished": false
+     },
+     "monitoring": {
+      "fails": {
+       "rows": 34,
+       "outside": 2,
+       "rate": 0.058823529411764705,
+       "low": 0.016282655210122746,
+       "high": 0.19093606904280996
+      },
+      "passes": {
+       "rows": 712,
+       "outside": 7,
+       "rate": 0.009831460674157303,
+       "low": 0.004770357359772449,
+       "high": 0.0201533999901956
+      },
+      "distinguished": false
+     }
+    }
+   },
+   {
+    "sensor": "469",
+    "S_reference": 3.174792269007605,
+    "direction": "불량에서 높다",
+    "limits": {
+     "low": 3.130818,
+     "high": 16.987243000000145
+    },
+    "limits_3sigma": {
+     "low": 2.876682389937107,
+     "high": 7.688317610062892
+    },
+    "reference_missing": 0.0,
+    "quantile_limits": {
+     "reference": {
+      "fails": {
+       "rows": 49,
+       "outside": 1,
+       "rate": 0.02040816326530612,
+       "low": 0.0036116725898252405,
+       "high": 0.10693521523391616
+      },
+      "passes": {
+       "rows": 454,
+       "outside": 5,
+       "rate": 0.011013215859030838,
+       "low": 0.004713107844012411,
+       "high": 0.025518883064689676
+      },
+      "distinguished": false
+     },
+     "monitoring": {
+      "fails": {
+       "rows": 34,
+       "outside": 2,
+       "rate": 0.058823529411764705,
+       "low": 0.016282655210122746,
+       "high": 0.19093606904280996
+      },
+      "passes": {
+       "rows": 712,
+       "outside": 6,
+       "rate": 0.008426966292134831,
+       "low": 0.00386771298448096,
+       "high": 0.01826212963010018
+      },
+      "distinguished": false
+     }
+    },
+    "sigma_limits": {
+     "reference": {
+      "fails": {
+       "rows": 49,
+       "outside": 1,
+       "rate": 0.02040816326530612,
+       "low": 0.0036116725898252405,
+       "high": 0.10693521523391616
+      },
+      "passes": {
+       "rows": 454,
+       "outside": 11,
+       "rate": 0.024229074889867842,
+       "low": 0.013581960869741744,
+       "high": 0.04285997623061705
+      },
+      "distinguished": false
+     },
+     "monitoring": {
+      "fails": {
+       "rows": 34,
+       "outside": 3,
+       "rate": 0.08823529411764706,
+       "low": 0.030465943674648555,
+       "high": 0.22960486562808868
+      },
+      "passes": {
+       "rows": 712,
+       "outside": 23,
+       "rate": 0.032303370786516857,
+       "low": 0.02162036810108703,
+       "high": 0.048006025015071604
+      },
+      "distinguished": false
+     }
+    }
+   }
+  ]
+ }
+}

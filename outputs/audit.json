@@ -1,0 +1,326 @@
+{
+ "files": {
+  "train.csv": {
+   "sha256": "1ff77cd567de374274e5457cb68c4a35aa097ba0880fd9e4af1aa499e7df2e3f",
+   "bytes": 4703056
+  },
+  "test.csv": {
+   "sha256": "b23ea5f840d16533ebe6d1f8683a08fc3b071edc009d3fc9c315cf0228c4271f",
+   "bytes": 1180680
+  },
+  "sample_submission.csv": {
+   "sha256": "fd51f272a6efb155604401400d9018e0a3b795ba9694dd99dcdf00cb4fe841a9",
+   "bytes": 2625
+  }
+ },
+ "shape": {
+  "train_rows": 1253,
+  "test_rows": 314,
+  "sensor_columns": 590,
+  "ids_contiguous_from_zero": true,
+  "sample_submission_rows": 314,
+  "sample_submission_ids_equal_test_ids": true,
+  "sample_submission_values": [
+   0.5
+  ]
+ },
+ "target": {
+  "fails": 83,
+  "passes": 1170,
+  "fail_share": 0.066241,
+  "test_fails_estimated_from_train_rate": 20.8
+ },
+ "time": {
+  "rows": 1567,
+  "rows_day_le_12": 604,
+  "rows_changed": 582,
+  "backward_steps_raw": 6,
+  "backward_steps_fixed": 0,
+  "raw_first": "2008-01-08 02:02:00",
+  "raw_last": "2008-12-10 18:47:00",
+  "fixed_first": "2008-07-19 11:55:00",
+  "fixed_last": "2008-10-17 06:07:00",
+  "calendar_days_with_rows": 86,
+  "calendar_days_in_span": 91,
+  "median_gap_minutes": 37.0,
+  "longest_gap_hours": 48.63333333333333,
+  "adjacent_equal_times": 33
+ },
+ "train_test_in_time": {
+  "rule": "bin = floor(id * 10 / total_rows)",
+  "test_rows_per_bin": [
+   30,
+   31,
+   29,
+   26,
+   32,
+   32,
+   27,
+   36,
+   36,
+   35
+  ],
+  "test_share_per_bin_pct": [
+   19.1,
+   19.7,
+   18.5,
+   16.7,
+   20.4,
+   20.4,
+   17.3,
+   22.9,
+   22.9,
+   22.4
+  ],
+  "runs": 471,
+  "runs_expected_if_random": 503.2,
+  "runs_z": -2.54,
+  "longest_run_of_test_ids": 4,
+  "longest_run_of_train_ids": 34
+ },
+ "fail_rate_over_time": {
+  "by_month": {
+   "2008-07": {
+    "rows": 47,
+    "fails": 8,
+    "fail_pct": 17.0
+   },
+   "2008-08": {
+    "rows": 456,
+    "fails": 41,
+    "fail_pct": 9.0
+   },
+   "2008-09": {
+    "rows": 475,
+    "fails": 14,
+    "fail_pct": 2.9
+   },
+   "2008-10": {
+    "rows": 275,
+    "fails": 20,
+    "fail_pct": 7.3
+   }
+  },
+  "ten_id_bins": {
+   "train_rows": [
+    127,
+    126,
+    128,
+    130,
+    125,
+    125,
+    129,
+    121,
+    121,
+    121
+   ],
+   "fails": [
+    12,
+    22,
+    10,
+    5,
+    2,
+    7,
+    2,
+    7,
+    13,
+    3
+   ]
+  },
+  "five_blocks": [
+   {
+    "block": 1,
+    "rows": 253,
+    "fails": 34,
+    "passes": 219,
+    "fail_pct": 13.44,
+    "first_id": 0,
+    "last_id": 312,
+    "first_day": "2008-07-19",
+    "last_day": "2008-08-19"
+   },
+   {
+    "block": 2,
+    "rows": 250,
+    "fails": 15,
+    "passes": 235,
+    "fail_pct": 6.0,
+    "first_id": 314,
+    "last_id": 617,
+    "first_day": "2008-08-19",
+    "last_day": "2008-08-31"
+   },
+   {
+    "block": 3,
+    "rows": 250,
+    "fails": 8,
+    "passes": 242,
+    "fail_pct": 3.2,
+    "first_id": 618,
+    "last_id": 928,
+    "first_day": "2008-09-01",
+    "last_day": "2008-09-19"
+   },
+   {
+    "block": 4,
+    "rows": 250,
+    "fails": 10,
+    "passes": 240,
+    "fail_pct": 4.0,
+    "first_id": 929,
+    "last_id": 1243,
+    "first_day": "2008-09-19",
+    "last_day": "2008-10-02"
+   },
+   {
+    "block": 5,
+    "rows": 250,
+    "fails": 16,
+    "passes": 234,
+    "fail_pct": 6.4,
+    "first_id": 1244,
+    "last_id": 1566,
+    "first_day": "2008-10-02",
+    "last_day": "2008-10-17"
+   }
+  ],
+  "ten_cells": {
+   "rows": [
+    127,
+    126,
+    125,
+    125,
+    125,
+    125,
+    125,
+    125,
+    125,
+    125
+   ],
+   "fails": [
+    12,
+    22,
+    10,
+    5,
+    2,
+    6,
+    3,
+    7,
+    13,
+    3
+   ],
+   "fail_pct": [
+    9.4,
+    17.5,
+    8.0,
+    4.0,
+    1.6,
+    4.8,
+    2.4,
+    5.6,
+    10.4,
+    2.4
+   ],
+   "centre_pct": 6.62,
+   "upper_limit_pct_125_rows": 13.3,
+   "cells_above_upper_limit": [
+    2
+   ]
+  },
+  "forward_scored": {
+   "rows": 1000,
+   "fails": 49,
+   "passes": 951
+  },
+  "reference_period_blocks_1_2": {
+   "rows": 503,
+   "fails": 49
+  },
+  "monitoring_period_blocks_3_5": {
+   "rows": 750,
+   "fails": 34,
+   "passes": 716
+  }
+ },
+ "clustering_of_fails": {
+  "adjacent_fail_pairs": 14,
+  "expected_if_random": 5.43,
+  "p_random": 0.0005499725013749313,
+  "mean_if_shuffled_within_125_rows": 7.73,
+  "p_within_125_rows": 0.014797040591881624,
+  "share_of_fails_with_another_within_3_rows": 0.59
+ },
+ "missing": {
+  "train_cell_share": 0.045813,
+  "train_cells": 33868,
+  "test_cell_share": 0.043631,
+  "test_cells": 8083,
+  "columns_by_missing_share": {
+   "none": 84,
+   "up_to_1pct": 383,
+   "1_to_5pct": 71,
+   "5_to_20pct": 20,
+   "20_to_50pct": 8,
+   "50_to_80pct": 16,
+   "over_80pct": 8
+  },
+  "columns_with_any_missing": 506,
+  "columns_over_50pct_train": 24,
+  "columns_over_50pct_test": 28,
+  "max_column_share": 0.9066,
+  "per_row_min_median_max": [
+   4,
+   24.0,
+   152
+  ],
+  "complete_rows": 0,
+  "distinct_missing_shares": 22,
+  "distinct_missing_row_patterns": 34,
+  "mean_missing_per_row_by_id_bin_min_max": [
+   18.9,
+   34.2
+  ]
+ },
+ "columns": {
+  "constant_in_train": 116,
+  "two_distinct_values_in_train": 6,
+  "varying_in_train": 474,
+  "usable_on_all_train_rows": 450,
+  "constant_after_clipping_among_usable": 6,
+  "usable_in_forward_training_windows": [
+   448,
+   444,
+   444,
+   444
+  ],
+  "no_value_in_blocks_1_2": 16,
+  "no_value_in_blocks_1_2_first_observed_id_min": 773
+ },
+ "duplicates_and_extremes": {
+  "duplicate_rows_train": 0,
+  "duplicate_rows_test": 0,
+  "duplicate_rows_train_and_test_together": 0,
+  "identical_varying_columns": 0,
+  "pairs_abs_corr_over_0999": 60,
+  "pairs_abs_corr_over_099": 153,
+  "pairs_abs_corr_over_095": 337,
+  "varying_columns_with_max_abs_z_over_10": 204,
+  "varying_columns_with_abs_spearman_with_id_over_05": 8
+ },
+ "auc_standard_error_by_formula": {
+  "all_train_at_070_075_080": [
+   0.0329,
+   0.0316,
+   0.0297
+  ],
+  "one_validation_fold_17_234_at_070": 0.073,
+  "forward_blocks_2_to_5_at_070": [
+   0.077,
+   0.105,
+   0.094,
+   0.075
+  ],
+  "forward_pair_weighted_mean_at_070": 0.043,
+  "public_leaderboard_10_fails_147_passes_at_075": 0.091
+ }
+}

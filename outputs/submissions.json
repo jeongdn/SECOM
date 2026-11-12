@@ -1,0 +1,33 @@
+{
+ "created": "2026-11-12T13:43:48",
+ "code": "4570a355defd01c320cfd37ef0cbcd29764ae477",
+ "rule": "제출은 미리 정한 2개뿐이다. 리더보드 점수로는 모델·설정·임계값 어느 것도 고르지 않는다. 예상 범위를 벗어나면 파일의 형식(id, 확률의 방향)만 다시 확인하고, 다시 제출하지 않는다.",
+ "expected_public_leaderboard": {
+  "low": 0.47250188536953247,
+  "high": 0.8725018853695325,
+  "assumptions": "test 불량률이 train과 같고 공개·비공개가 무작위로 나뉜다"
+ },
+ "result_of_record": "1",
+ "files": {
+  "1": {
+   "setting": "baseline",
+   "label": "기준선(상위 40개 센서 + 로지스틱 회귀)",
+   "role": "이 프로젝트의 결과로 적는 제출",
+   "file": "submission_1_baseline.csv",
+   "sha256": "7aa11cb508ee85efa32702dc951cf46331bcdd2a8ebb7daf96e5e4822eb8b5b3",
+   "train_rows": 1253,
+   "test_rows": 314,
+   "in_sample_auc_direction_check": 0.8228915662650602
+  },
+  "2": {
+   "setting": "forest_sqrt",
+   "label": "랜덤 포레스트(분기마다 센서 √p개)",
+   "role": "참고(채택되지 않은 후보. 기준선이 유지될 때 내기로 미리 정해 둔 것)",
+   "file": "submission_2_forest_sqrt.csv",
+   "sha256": "45ae1662d1247e0849f84c7689a1fbd2892ad7674c9be9fa15cdbe4ecbb7c3f2",
+   "train_rows": 1253,
+   "test_rows": 314,
+   "in_sample_auc_direction_check": 0.9999691071980229
+  }
+ }
+}
